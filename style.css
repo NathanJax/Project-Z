@@ -1,0 +1,105 @@
+html{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+header{
+	height: 5%;
+}
+
+main{
+	height: 85%;
+}
+
+footer{
+	height: 10%;
+	width: 100%;
+	background-color: #e84118;
+	display: flex;
+}
+
+.email{
+	width: 37.5%;
+	text-align: center;
+	font-size: x-large;
+	color:white;
+}
+
+.socialContainer{
+	width: 25%;
+	display: flex;
+}
+
+.socialTwitter{
+	width: 25%;
+}
+
+.twitcontent{
+	width: 80%;
+	height: 80%;
+	margin: 10% 10% 10% 10%;
+}
+
+.twitter-png{
+	width: 75%;
+	height: 90%;
+}
+
+.socialFacebook{
+	width: 25%;
+}
+
+.facecontent{
+	width: 80%;
+	height: 80%;
+	margin: 10% 10% 10% 10%;
+}
+
+.facebook-png{
+	width: 75%;
+	height: 90%;
+}
+
+.socialYouTube{
+	width: 25%;
+}
+
+.tubecontent{
+	width: 80%;
+	height: 80%;
+	margin: 10% 10% 10% 10%;
+}
+
+.youtube-png{
+	width: 75%;
+	height: 90%;
+}
+
+.socialInstagram{
+	width: 25%;
+}
+
+.instcontent{
+	width: 80%;
+	height: 80%;
+	margin: 10% 10% 10% 10%;
+}
+
+.instagram-png{
+	width: 75%;
+	height: 90%;
+}
+
+.number{
+	width: 37.5%;
+	text-align: center;
+	font-size: x-large;
+	color: white;
+}
