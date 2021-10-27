@@ -32,16 +32,16 @@ footer{
 	color:white;
 }
 
-.socialContainer{
+.social-container{
 	width: 25%;
 	display: flex;
 }
 
-.socialTwitter{
+.social-twitter{
 	width: 25%;
 }
 
-.twitcontent{
+.twit-content{
 	width: 80%;
 	height: 80%;
 	margin: 10% 10% 10% 10%;
@@ -52,11 +52,11 @@ footer{
 	height: 90%;
 }
 
-.socialFacebook{
+.social-facebook{
 	width: 25%;
 }
 
-.facecontent{
+.face-content{
 	width: 80%;
 	height: 80%;
 	margin: 10% 10% 10% 10%;
@@ -67,11 +67,11 @@ footer{
 	height: 90%;
 }
 
-.socialYouTube{
+.social-youtube{
 	width: 25%;
 }
 
-.tubecontent{
+.tube-content{
 	width: 80%;
 	height: 80%;
 	margin: 10% 10% 10% 10%;
@@ -82,11 +82,11 @@ footer{
 	height: 90%;
 }
 
-.socialInstagram{
+.social-instagram{
 	width: 25%;
 }
 
-.instcontent{
+.inst-content{
 	width: 80%;
 	height: 80%;
 	margin: 10% 10% 10% 10%;
