@@ -11,7 +11,7 @@ body{
 }
 
 main{
-	height: 85%;
+	height: 80%;
 }
 
 footer{
@@ -24,7 +24,7 @@ footer{
 .email{
 	width: 37.5%;
 	text-align: center;
-	font-size: x-large;
+	font-size: 3.2vh;
 	color:white;
 }
 
@@ -96,15 +96,10 @@ footer{
 .number{
 	width: 37.5%;
 	text-align: center;
-	font-size: x-large;
+	font-size: 3.2vh;
 	color: white;
 }
 
-header p{
-	width: 50%;
-	display: flex;
-	margin: 2% 0% 2% 0%;
-}
 
 header{
 	height: 10%;
@@ -123,6 +118,79 @@ header{
 	height: 100%;
 }	
 .search{
-	width: 70%;
+	width: 75%;
+	display: block;
+}
+
+.search-container1{
+	height: 33%;
+}
+
+.search-container2{
+	height: 34%;
 	display: flex;
+}
+
+.search-container3{
+	height: 33%;
+}
+
+.search-content1{
+	width: 40%;
+}
+
+.search-content2{
+	width: 20%;
+}
+
+.search-content3{
+	width: 40%;
+}
+
+.header_in_btns{
+	width: 18%;
+	display: flex;
+}
+
+.header_space{
+	width: 2%;
+}
+
+.log_btn{
+	width: 50%;
+}
+
+.log_btn_content1{
+	height: 25%;
+}
+
+.log_btn_content2{
+	height: 50%;
+	text-align: center;
+	font-size: 4vh;
+	color: white;
+}
+
+.log_btn_content3{
+	height: 25%;
+}
+
+.reg_btn{
+	width: 50%;
+}
+
+.reg_btn_content1{
+	height: 25%;
+}
+
+.reg_btn_content2{
+	height: 50%;
+	text-align: center;
+	font-size: 4vh;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.reg_btn_content3{
+	height: 25%;
 }
