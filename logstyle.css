@@ -1,0 +1,145 @@
+html{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url("../media/new.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left-section{
+    width: 40%;
+}
+
+.center-section{
+    width: 20%;
+    display: block;
+}
+
+.center-section-upper-block{
+    height: 36%;
+}
+
+.center-section-center-block{
+    height: 28%;
+    background-color:white;
+    border-radius: 20px;
+}
+
+.center-section-upper-blank{
+    height: 1%;
+}
+
+.center-section-login{
+    font-size: x-large;
+    font-family: monospace;
+    height: 11%;
+    width: 90%;
+    margin: 0% 5% 0% 5%;
+}
+
+.center-section-login-input{
+    height: 11%;
+    width: 90%;
+    margin: 0% 5% 0% 5%;
+}
+
+.center-section-login-input input{
+    border-width: 0;
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+    width: 98%;
+}
+
+.center-section-pass{
+    font-size: x-large;
+    font-family: monospace;
+    height: 11%;
+    width: 90%;
+    margin: 0% 5% 0% 5%;
+}
+
+.center-section-pass-input{
+    height: 11%;
+    width: 90%;
+    margin: 0% 5% 0% 5%;
+}
+
+.center-section-pass-input input{
+    border-width: 0;
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+    width: 98%;
+}
+
+.button{
+    display: flex;
+    height: 20%;
+}
+
+.button-reg{
+    width: 75%;
+    color:#3498db;
+}
+
+.button-reg:hover{
+    width: 75%;
+    color:#3498db;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.button-reg1{
+    height: 50%;
+}
+
+.button-reg2{
+    height: 50%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+.button-button{
+    height: 100%;
+    width: 25%;
+    margin: 7% 5% 7% 0%;
+    text-align:right;
+}
+
+
+
+.button-button input{
+    background-color: #e46671;
+    border-width: 0;
+    border-radius: 20px;
+    color:white;
+    height: 100%;
+    width: 100%;
+    transition: .3s;
+    font-family: monospace;
+    font-size: x-large;
+}
+
+.button-button input:hover{
+    cursor:pointer;
+    color:#e46671;
+    transition: .3s;
+    background: rgba(0,0,0,0);
+	box-shadow: inset 0 0 0 3px #e46671;
+}
+
+.center-section-lower-block{
+    height: 36%;
+}
+
+.right-section{
+    width: 40%;
+}
