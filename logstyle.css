@@ -9,7 +9,7 @@ body{
     width: 100%;
     height: 100%;
     display: flex;
-    background-image: url("../media/new.png");
+    background-image: url("media/new.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -25,6 +25,32 @@ body{
 
 .center-section-upper-block{
     height: 36%;
+}
+
+.center-section-upper-block-blank{
+    height: 90%;
+}
+
+.center-section-upper-block-arrowleft{
+    height: 10%;
+    display: flex;
+}
+
+.center-section-upper-block-arrowleft-left{
+    width: 45%;
+}
+
+.center-section-upper-block-arrowleft-center{
+    width: 10%;
+}
+
+.center-section-upper-block-arrowleft-right{
+    width: 45%;
+}
+
+.center-section-upper-block-arrowleft-center img{
+    height: 100%;
+    width: 100%;
 }
 
 .center-section-center-block{
@@ -87,6 +113,7 @@ body{
 .button-reg{
     width: 75%;
     color:#3498db;
+    transition: .3s;
 }
 
 .button-reg:hover{
@@ -94,6 +121,7 @@ body{
     color:#3498db;
     cursor: pointer;
     text-decoration: underline;
+    transition: .3s;
 }
 
 .button-reg1{
