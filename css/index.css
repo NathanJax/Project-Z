@@ -55,9 +55,77 @@ header{
 }
 
 main{
-	height: 100vh;
+	height: 250vh;
 }
 
+
+#grid-general { 
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1vw;
+	padding: 2vh;
+	}
+	
+#grid-witcher-images { 
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 2vw;
+	padding: 2vh;
+	}
+
+.witcher-image-1{
+	background-image: url(../src/index/main/witcher/);
+}
+
+.witcher-image-2{
+	background-image: url(../src/index/main/witcher/);
+}
+.witcher-image-3{
+	background-image: url(../src/index/main/witcher/);
+}
+
+.witcher-image-4{
+	background-image: url(../src/index/main/witcher/);
+}
+
+.witcher-image-5{
+	background-image: url(../src/index/main/witcher/);
+}
+
+.witcher-image-6{
+	background-image: url(../src/index/main/witcher/);
+}
+
+.witcher-image-7{
+	background-image: url(../src/index/main/witcher/);
+}
+
+.witcher-image-8{
+	background-image: url(../src/index/main/witcher/);
+}
+
+.witcher-image-9{
+	background-image: url(../src/index/main/witcher/);
+}
+
+#grid-witcher-text { 
+	display: grid;
+	grid-template-rows: auto 1fr;
+	grid-template-columns: 1fr;
+	grid-gap: 1vh;
+	padding: 2vh;
+	}
+
+.witcher-header{
+	font-size: 5vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+  
 footer{
 	height: 8vh;
 	display: flex;
