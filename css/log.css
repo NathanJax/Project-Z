@@ -5,20 +5,56 @@ body{
     background-size: cover;
 }
 
-#grid { 
+#grid-general { 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 1vw;
     }
-  #grid > div {
+  #grid-general > div {
     padding: 3vh;
   }
 
 .form{
     background-color: white;
     display: block;
-    font-size: 2vh;
-    border-radius: 50px;
+    border-radius: 30px;
     height: 25vh;
 }
+
+.form label{
+    font-family: verdana;
+    font-size: 3vh;
+}
+
+.form input{
+    font-size: 3vh;
+}
+
+.button-div{
+    text-align: right;
+}
+
+.form-button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 0px;
+    border-width: 0;
+    border-style: solid;    
+    background-color: white;
+    transition: .3s;
+    color: brown;
+}
+
+.form-button:hover{
+    color: brown;
+    background-color: burlywood;
+    transition: .3s;
+    cursor: pointer;
+}
+
+#grid-inner { 
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 1vh;
+    }
