@@ -1,0 +1,164 @@
+body{
+	margin: 0;
+}
+
+header{
+	background-image: url("../src/index/header.png");
+	display: flex;
+	justify-content: space-between;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logoContainer{
+	display: flex;
+	color:white;
+	font-family: monospace;
+	font-size: 2vh;
+	align-items: center;
+}
+
+.logo{
+	width: 32px;
+	height: 32px;
+}	
+
+.search{
+	display: flex;
+}
+
+.search input{
+	align-items: center;
+	margin: 5px;
+}
+
+.header-buttons{
+	display: flex;
+	align-items: center;
+	transition: .3s;
+}
+
+.header-buttons a{
+	text-decoration: none;
+	color: white;
+	font-family: monospace;
+	font-size: 2vh;
+	margin: 5px;
+}
+
+.header-buttons a:hover{
+	background-color: white;
+	transition: .3s;
+	border-radius: 5px;
+	color:black;
+	
+}
+
+main{
+	height: 250vh;
+}
+
+
+#grid-general { 
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1vw;
+	padding: 2vh;
+	}
+	
+#grid-witcher-images { 
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 2vw;
+	padding: 2vh;
+	}
+
+.witcher-image-1{
+	background-image: url(../src/index/main/witcher/);
+}
+
+.witcher-image-2{
+	background-image: url(../src/index/main/witcher/);
+}
+.witcher-image-3{
+	background-image: url(../src/index/main/witcher/);
+}
+
+.witcher-image-4{
+	background-image: url(../src/index/main/witcher/);
+}
+
+.witcher-image-5{
+	background-image: url(../src/index/main/witcher/);
+}
+
+.witcher-image-6{
+	background-image: url(../src/index/main/witcher/);
+}
+
+.witcher-image-7{
+	background-image: url(../src/index/main/witcher/);
+}
+
+.witcher-image-8{
+	background-image: url(../src/index/main/witcher/);
+}
+
+.witcher-image-9{
+	background-image: url(../src/index/main/witcher/);
+}
+
+#grid-witcher-text { 
+	display: grid;
+	grid-template-rows: auto 1fr;
+	grid-template-columns: 1fr;
+	grid-gap: 1vh;
+	padding: 2vh;
+	}
+
+.witcher-header{
+	font-size: 5vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+  
+footer{
+	height: 8vh;
+	display: flex;
+	justify-content: space-around;
+	background-image: url("../src/index/footer.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.email{
+	text-align: center;
+	font-size: 2.4vh;
+	color:white;
+	font-family: verdana;
+}
+
+.social-container{
+	display: flex;
+	align-items: center;
+	
+}
+
+.social-container img {
+	width: 40px;
+	height: 40px;
+}
+
+.number{
+	text-align: center;
+	font-size: 2.4vh;
+	color: white;
+	font-family: verdana;
+}
+
+
+
