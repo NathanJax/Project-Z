@@ -76,38 +76,57 @@ main{
 	}
 
 .witcher-image-1{
-	background-image: url(../src/index/main/witcher/);
+	background-image: url(../src/index/main/witcher/Sapkovsky.jfif);
+	background-size: cover;
+	background-position-x: center
 }
 
 .witcher-image-2{
-	background-image: url(../src/index/main/witcher/);
+	background-image: url(../src/index/main/witcher/Geralt-saga.jfif);
+	background-size: cover;
+	background-position-x: center
 }
+
 .witcher-image-3{
-	background-image: url(../src/index/main/witcher/);
+	background-image: url(../src/index/main/witcher/Rivia.jpg);
+	background-size: cover;
+	background-position-x: center
 }
 
 .witcher-image-4{
-	background-image: url(../src/index/main/witcher/);
+	background-image: url(../src/index/main/witcher/Netflix.jpg);
+	background-size: cover;
+	background-position-x: center
 }
 
 .witcher-image-5{
-	background-image: url(../src/index/main/witcher/);
+	background-image: url(../src/index/main/witcher/wild-hunt.jpg);
+	background-size: cover;
+	background-position-x: center
 }
 
 .witcher-image-6{
-	background-image: url(../src/index/main/witcher/);
+	background-image: url(../src/index/main/witcher/CD-logo.jpg);
+	background-size: cover;
+	background-position-x: center;
 }
 
 .witcher-image-7{
-	background-image: url(../src/index/main/witcher/);
+	background-image: url(../src/index/main/witcher/Witches.jpg);
+	background-size: cover;
+	background-position-x: center
 }
 
 .witcher-image-8{
-	background-image: url(../src/index/main/witcher/);
+	background-image: url(../src/index/main/witcher/Leshy.jpg);
+	background-size: cover;
+	background-position-x: center
 }
 
 .witcher-image-9{
-	background-image: url(../src/index/main/witcher/);
+	background-image: url(../src/index/main/witcher/Hunters.jpg);
+	background-size: cover;
+	background-position-x: center;
 }
 
 #grid-witcher-text { 
@@ -118,14 +137,82 @@ main{
 	padding: 2vh;
 	}
 
+	#grid-witcher-text p{
+		margin:0.5em;
+		text-indent: 2vw;
+	}
+
 .witcher-header{
 	font-size: 5vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 }
-  
+
+#grid-league-of-legends-text { 
+	display: grid;
+	grid-template-rows: auto 1fr;
+	grid-template-columns: 1fr;
+	grid-gap: 1vh;
+	padding: 2vh;
+	}
+
+	#grid-league-of-legends-text p{
+		margin:0.5em;
+		text-indent: 2vw;
+	}
+
+.league-of-legends-header{
+	font-size: 5vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#grid-league-of-legends-images { 
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 0.5vw;
+	padding: 2vh;
+	}
+
+.league-of-legends-image-1{
+	background-image: url(../src/index/main/league-of-legends/riot.jfif);
+	background-size: cover;
+	background-position-x: center
+}
+
+.league-of-legends-image-2{
+	background-image: url(../src/index/main/league-of-legends/rpg.jpg);
+	background-size: cover;
+	background-position-x: center
+}
+
+.league-of-legends-image-3{
+	background-image: url(../src/index/main/league-of-legends/map.jpg);
+	background-size: cover;
+	background-position-x: center
+}
+
+.league-of-legends-image-4{
+	background-image: url(../src/index/main/league-of-legends/enemy.jpg);
+	background-size: cover;
+	background-position-x: center
+}
+
+.league-of-legends-image-5{
+	background-image: url(../src/index/main/league-of-legends/k-da.jfif);
+	background-size: cover;
+	background-position-x: center
+}
+
+.league-of-legends-image-6{
+	background-image: url(../src/index/main/league-of-legends/arcane.jpg);
+	background-size: cover;
+	background-position-x: center
+}
+
 footer{
 	height: 8vh;
 	display: flex;
