@@ -294,6 +294,11 @@ main {
   padding: 2vh;
 }
 
+#grid-lotr-text {
+  margin: 0.5em;
+  text-indent: 2vw;
+}
+
 .lg1 {
   background-image: url(../src/index/main/lotr/lg1.jpg);
   background-size: cover;
