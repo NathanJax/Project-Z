@@ -288,9 +288,9 @@ main {
 
 #grid-lotr-images {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2vw;
+  grid-gap: 0.5vw;
   padding: 2vh;
 }
 
@@ -325,24 +325,6 @@ main {
 
 .lg6 {
   background-image: url(../src/index/main/lotr/lg6.jfif);
-  background-size: cover;
-  background-position-x: center;
-}
-
-.lg7 {
-  background-image: url(../src/index/main/lotr/lg7.jfif);
-  background-size: cover;
-  background-position-x: center;
-}
-
-.lg8 {
-  background-image: url(../src/index/main/lotr/lg8.jfif);
-  background-size: cover;
-  background-position-x: center;
-}
-
-.lg9 {
-  background-image: url(../src/index/main/lotr/lg9.jfif);
   background-size: cover;
   background-position-x: center;
 }
