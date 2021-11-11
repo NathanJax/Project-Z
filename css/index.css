@@ -226,6 +226,11 @@ main {
   padding: 2vh;
 }
 
+#grid-warhammer40k-text p{
+  margin: 0.5em;
+  text-indent: 2vw;
+}
+
 .wh1 {
   background-image: url(../src/index/main/warhammer40k/wh1.jpg);
   background-size: cover;
