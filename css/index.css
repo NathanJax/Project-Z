@@ -1,251 +1,381 @@
-body{
-	margin: 0;
+body {
+  margin: 0;
 }
 
-header{
-	background-image: url("../src/index/header.png");
-	display: flex;
-	justify-content: space-between;
-	background-repeat: no-repeat;
-	background-size: cover;
+header {
+  background-image: url("../src/index/header.png");
+  display: flex;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.logoContainer{
-	display: flex;
-	color:white;
-	font-family: monospace;
-	font-size: 2vh;
-	align-items: center;
+.logoContainer {
+  display: flex;
+  color: white;
+  font-family: monospace;
+  font-size: 2vh;
+  align-items: center;
 }
 
-.logo{
-	width: 32px;
-	height: 32px;
-}	
-
-.search{
-	display: flex;
+.logo {
+  width: 32px;
+  height: 32px;
 }
 
-.search input{
-	align-items: center;
-	margin: 5px;
+.search {
+  display: flex;
 }
 
-.header-buttons{
-	display: flex;
-	align-items: center;
-	transition: .3s;
+.search input {
+  align-items: center;
+  margin: 5px;
 }
 
-.header-buttons a{
-	text-decoration: none;
-	color: white;
-	font-family: monospace;
-	font-size: 2vh;
-	margin: 5px;
+.header-buttons {
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
 }
 
-.header-buttons a:hover{
-	background-color: white;
-	transition: .3s;
-	border-radius: 5px;
-	color:black;
-	
+.header-buttons a {
+  text-decoration: none;
+  color: white;
+  font-family: monospace;
+  font-size: 2vh;
+  margin: 5px;
 }
 
-main{
-	height: 250vh;
+.header-buttons a:hover {
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 5px;
+  color: black;
 }
 
-
-#grid-general { 
-	display: grid;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 1vw;
-	padding: 2vh;
-	}
-	
-#grid-witcher-images { 
-	display: grid;
-	grid-template-rows: 1fr 1fr 1fr;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 2vw;
-	padding: 2vh;
-	}
-
-.witcher-image-1{
-	background-image: url(../src/index/main/witcher/Sapkovsky.jfif);
-	background-size: cover;
-	background-position-x: center
+main {
+  height: 250vh;
 }
 
-.witcher-image-2{
-	background-image: url(../src/index/main/witcher/Geralt-saga.jfif);
-	background-size: cover;
-	background-position-x: center
+#grid-general {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1vw;
+  padding: 2vh;
 }
 
-.witcher-image-3{
-	background-image: url(../src/index/main/witcher/Rivia.jpg);
-	background-size: cover;
-	background-position-x: center
+#grid-witcher-images {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2vw;
+  padding: 2vh;
 }
 
-.witcher-image-4{
-	background-image: url(../src/index/main/witcher/Netflix.jpg);
-	background-size: cover;
-	background-position-x: center
+.witcher-image-1 {
+  background-image: url(../src/index/main/witcher/Sapkovsky.jfif);
+  background-size: cover;
+  background-position-x: center;
 }
 
-.witcher-image-5{
-	background-image: url(../src/index/main/witcher/wild-hunt.jpg);
-	background-size: cover;
-	background-position-x: center
+.witcher-image-2 {
+  background-image: url(../src/index/main/witcher/Geralt-saga.jfif);
+  background-size: cover;
+  background-position-x: center;
 }
 
-.witcher-image-6{
-	background-image: url(../src/index/main/witcher/CD-logo.jpg);
-	background-size: cover;
-	background-position-x: center;
+.witcher-image-3 {
+  background-image: url(../src/index/main/witcher/Rivia.jpg);
+  background-size: cover;
+  background-position-x: center;
 }
 
-.witcher-image-7{
-	background-image: url(../src/index/main/witcher/Witches.jpg);
-	background-size: cover;
-	background-position-x: center
+.witcher-image-4 {
+  background-image: url(../src/index/main/witcher/Netflix.jpg);
+  background-size: cover;
+  background-position-x: center;
 }
 
-.witcher-image-8{
-	background-image: url(../src/index/main/witcher/Leshy.jpg);
-	background-size: cover;
-	background-position-x: center
+.witcher-image-5 {
+  background-image: url(../src/index/main/witcher/wild-hunt.jpg);
+  background-size: cover;
+  background-position-x: center;
 }
 
-.witcher-image-9{
-	background-image: url(../src/index/main/witcher/Hunters.jpg);
-	background-size: cover;
-	background-position-x: center;
+.witcher-image-6 {
+  background-image: url(../src/index/main/witcher/CD-logo.jpg);
+  background-size: cover;
+  background-position-x: center;
 }
 
-#grid-witcher-text { 
-	display: grid;
-	grid-template-rows: auto 1fr;
-	grid-template-columns: 1fr;
-	grid-gap: 1vh;
-	padding: 2vh;
-	}
-
-	#grid-witcher-text p{
-		margin:0.5em;
-		text-indent: 2vw;
-	}
-
-.witcher-header{
-	font-size: 5vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.witcher-image-7 {
+  background-image: url(../src/index/main/witcher/Witches.jpg);
+  background-size: cover;
+  background-position-x: center;
 }
 
-#grid-league-of-legends-text { 
-	display: grid;
-	grid-template-rows: auto 1fr;
-	grid-template-columns: 1fr;
-	grid-gap: 1vh;
-	padding: 2vh;
-	}
-
-	#grid-league-of-legends-text p{
-		margin:0.5em;
-		text-indent: 2vw;
-	}
-
-.league-of-legends-header{
-	font-size: 5vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.witcher-image-8 {
+  background-image: url(../src/index/main/witcher/Leshy.jpg);
+  background-size: cover;
+  background-position-x: center;
 }
 
-#grid-league-of-legends-images { 
-	display: grid;
-	grid-template-rows: 1fr 1fr;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 0.5vw;
-	padding: 2vh;
-	}
-
-.league-of-legends-image-1{
-	background-image: url(../src/index/main/league-of-legends/riot.jfif);
-	background-size: cover;
-	background-position-x: center
+.witcher-image-9 {
+  background-image: url(../src/index/main/witcher/Hunters.jpg);
+  background-size: cover;
+  background-position-x: center;
 }
 
-.league-of-legends-image-2{
-	background-image: url(../src/index/main/league-of-legends/rpg.jpg);
-	background-size: cover;
-	background-position-x: center
+#grid-witcher-text {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 1vh;
+  padding: 2vh;
 }
 
-.league-of-legends-image-3{
-	background-image: url(../src/index/main/league-of-legends/map.jpg);
-	background-size: cover;
-	background-position-x: center
+#grid-witcher-text p {
+  margin: 0.5em;
+  text-indent: 2vw;
 }
 
-.league-of-legends-image-4{
-	background-image: url(../src/index/main/league-of-legends/enemy.jpg);
-	background-size: cover;
-	background-position-x: center
+.witcher-header {
+  font-size: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.league-of-legends-image-5{
-	background-image: url(../src/index/main/league-of-legends/k-da.jfif);
-	background-size: cover;
-	background-position-x: center
+#grid-league-of-legends-text {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 1vh;
+  padding: 2vh;
 }
 
-.league-of-legends-image-6{
-	background-image: url(../src/index/main/league-of-legends/arcane.jpg);
-	background-size: cover;
-	background-position-x: center
+#grid-league-of-legends-text p {
+  margin: 0.5em;
+  text-indent: 2vw;
 }
 
-footer{
-	height: 8vh;
-	display: flex;
-	justify-content: space-around;
-	background-image: url("../src/index/footer.png");
-	background-size: cover;
-	background-repeat: no-repeat;
+.league-of-legends-header {
+  font-size: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.email{
-	text-align: center;
-	font-size: 2.4vh;
-	color:white;
-	font-family: verdana;
+#grid-league-of-legends-images {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5vw;
+  padding: 2vh;
 }
 
-.social-container{
-	display: flex;
-	align-items: center;
-	
+.league-of-legends-image-1 {
+  background-image: url(../src/index/main/league-of-legends/riot.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.league-of-legends-image-2 {
+  background-image: url(../src/index/main/league-of-legends/rpg.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.league-of-legends-image-3 {
+  background-image: url(../src/index/main/league-of-legends/map.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.league-of-legends-image-4 {
+  background-image: url(../src/index/main/league-of-legends/enemy.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.league-of-legends-image-5 {
+  background-image: url(../src/index/main/league-of-legends/k-da.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.league-of-legends-image-6 {
+  background-image: url(../src/index/main/league-of-legends/arcane.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.warhammer40k-header {
+  font-size: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#grid-warhammer40k-images {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2vw;
+  padding: 2vh;
+}
+
+.wh1 {
+  background-image: url(../src/index/main/warhammer40k/wh1.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.wh2 {
+  background-image: url(../src/index/main/warhammer40k/wh2.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+.wh3 {
+  background-image: url(../src/index/main/warhammer40k/wh3.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.wh5 {
+  background-image: url(../src/index/main/warhammer40k/wh5.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.wh4 {
+  background-image: url(../src/index/main/warhammer40k/wh4.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.wh6 {
+  background-image: url(../src/index/main/warhammer40k/wh6.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.wh7 {
+  background-image: url(../src/index/main/warhammer40k/wh7.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.wh8 {
+  background-image: url(../src/index/main/warhammer40k/wh8.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.wh9 {
+  background-image: url(../src/index/main/warhammer40k/wh9.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.lotr-header {
+  font-size: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#grid-lotr-images {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2vw;
+  padding: 2vh;
+}
+
+.lg1 {
+  background-image: url(../src/index/main/lotr/lg1.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.lg2 {
+  background-image: url(../src/index/main/lotr/lg2.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+.lg3 {
+  background-image: url(../src/index/main/lotr/lg3.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.lg4 {
+  background-image: url(../src/index/main/lotr/lg4.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.lg5 {
+  background-image: url(../src/index/main/lotr/lg5.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.lg6 {
+  background-image: url(../src/index/main/lotr/lg6.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.lg7 {
+  background-image: url(../src/index/main/lotr/lg7.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.lg8 {
+  background-image: url(../src/index/main/lotr/lg8.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.lg9 {
+  background-image: url(../src/index/main/lotr/lg9.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+
+footer {
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  background-image: url("../src/index/footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.email {
+  text-align: center;
+  font-size: 2.4vh;
+  color: white;
+  font-family: verdana;
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
 }
 
 .social-container img {
-	width: 40px;
-	height: 40px;
+  width: 40px;
+  height: 40px;
 }
 
-.number{
-	text-align: center;
-	font-size: 2.4vh;
-	color: white;
-	font-family: verdana;
+.number {
+  text-align: center;
+  font-size: 2.4vh;
+  color: white;
+  font-family: verdana;
 }
-
-
-
