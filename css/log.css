@@ -5,6 +5,10 @@ body{
     background-size: cover;
 }
 
+@media (min-w) {
+    background-image;
+}
+
 #grid-general { 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
