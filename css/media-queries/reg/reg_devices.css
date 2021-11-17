@@ -1,0 +1,11 @@
+@media screen and (max-width: 1200px) and (orientation: portrait) {
+  body {
+    background-image: url("../../../src/reg/phone-back.png");
+  }
+}
+
+@media screen and (min-width: 1200px) and (orientation: landscape) {
+  body {
+    background-image: url("../../../src/reg/phone-back.png");
+  }
+}
