@@ -1,0 +1,9 @@
+@media screen and (max-width:1080px) and (orientation:portrait){
+    #grid-general {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 1vw;
+        padding: 2vh;
+      }
+}
