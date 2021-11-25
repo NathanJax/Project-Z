@@ -1,11 +1,7 @@
-@media screen and (max-width:1080px) and (orientation:portrait){
+@media screen and (max-width:600px){
     body{
-        background-image: url("../../../src/log/phone-back.png");
-    }
-}
-
-@media screen and (min-width:1080px) and (orientation:landscape){
-    body{
-        background-image: url("../../../src/log/new.png");
+        background-image: url("../../../src/log/phone.png");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
