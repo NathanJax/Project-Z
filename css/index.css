@@ -371,3 +371,7 @@ footer {
   color: white;
   font-family: verdana;
 }
+
+#witcher-audio{
+  display: none;
+}

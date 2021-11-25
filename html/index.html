@@ -34,9 +34,9 @@
 				<div class="witcher-image-8"></div>
 				<div class="witcher-image-9"></div>
 			</div>
-			<div id="grid-witcher-text">
+			<div id="grid-witcher-text" >
 				<div class="witcher-header">The Witcher Universe</div>
-				<div class="witcher-text"> 
+				<div class="witcher-text" onmouseenter="playWitcher()" onmouseleave="pauseWitcher()"> 
 					<p>Вселенная Ведьмака была придумана и написана польским писателем-фантастом Анджеем Сапковским. Всего написано восемь книг, последняя из которых была опубликована в 2013 году (первая книга серии была выпущена в 1990 году).</p> 
 					<p>Вся серия рассказывает о похождениях одного из последних охотников на чудовищ (их называют ведьмаками) Геральте из Ривии.</p> 
 					<p>Есть несколько экранизаций. Самая популярная из них это экранизация стрим-сервисом Netflix с Генри Кавиллом в главной роли. Всеобщую популярность сага о ведьмаке заслужила после выхода игры 2015 года выпуска от польской игровой студии CD Project Red.</p> 
@@ -117,8 +117,7 @@
 		</div>
 	</footer>
 
-	<script>
-		alert('hello');
-	</script>
+	<audio id="witcher-audio" src="../src/index/sound/witcher.mp3"></audio>
+	<script src="../js/index/playWitcher.js"></script>
 
 </html>

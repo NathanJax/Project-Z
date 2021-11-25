@@ -1,7 +1,52 @@
 @media screen and (max-width:600px){
     body{
+        margin: 0;
         background-image: url(../../../src/log/phone-back.png);
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .form{
+        background-color: white;
+        display: block;
+        border-radius: 10px;
+        text-align: center;
+        height: 35vh;
+        width: 35vw;
+    }
+    .form label{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .form input{
+
+    }    
+    #grid-general { 
+        display: grid;
+        grid-template-rows: 8fr auto 0.2fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
+      #grid-general > div {
+        padding: 1vh;
+    }
+       
+    .form-button{
+        border-width: 0;
+        border-radius: 5vh;
+        border-style: solid;    
+        background-color: white;
+        transition: .3s;
+        color: brown;
+    }
+    .form-button:hover{
+        color: brown;
+        background-color: burlywood;
+        transition: .3s;
+        cursor: pointer;
+        border-radius: 5vh;
+    }
+    #grid-inner { 
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 2vw;
+        }
 }
