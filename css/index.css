@@ -1,8 +1,8 @@
-body{
+body {
   margin: 0;
 }
 
-header{
+header {
   background-image: url("../src/index/header.png");
   display: flex;
   justify-content: space-between;
@@ -10,7 +10,7 @@ header{
   background-size: cover;
 }
 
-.logoContainer{
+.logoContainer {
   display: flex;
   color: white;
   font-family: monospace;
@@ -57,7 +57,7 @@ main {
   height: 250vh;
 }
 
-#grid-general{
+#grid-general {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -226,7 +226,7 @@ main {
   padding: 2vh;
 }
 
-#grid-warhammer40k-text p{
+#grid-warhammer40k-text p {
   margin: 0.5em;
   text-indent: 2vw;
 }
@@ -372,6 +372,14 @@ footer {
   font-family: verdana;
 }
 
-#witcher-audio{
+#witcher-audio {
+  display: none;
+}
+
+#wh40k-audio {
+  display: none;
+}
+
+#lotr-audio {
   display: none;
 }
