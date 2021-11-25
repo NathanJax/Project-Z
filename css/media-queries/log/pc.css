@@ -12,16 +12,13 @@
         border-radius: 30px;
         height: 25vh;
     }
-    
     .form label{
         font-family: verdana;
         font-size: 3vh;
     }
-    
     .form input{
         font-size: 3vh;
-    }
-
+    }    
     #grid-general { 
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
@@ -31,7 +28,6 @@
       #grid-general > div {
         padding: 3vh;
     }
-    
     .button-div{
         text-align: right;
     }
@@ -45,14 +41,12 @@
         transition: .3s;
         color: brown;
     }
-    
     .form-button:hover{
         color: brown;
         background-color: burlywood;
         transition: .3s;
         cursor: pointer;
     }
-    
     #grid-inner { 
         display: grid;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;

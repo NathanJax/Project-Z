@@ -1,8 +1,8 @@
-body {
+body{
   margin: 0;
 }
 
-header {
+header{
   background-image: url("../src/index/header.png");
   display: flex;
   justify-content: space-between;
@@ -10,7 +10,7 @@ header {
   background-size: cover;
 }
 
-.logoContainer {
+.logoContainer{
   display: flex;
   color: white;
   font-family: monospace;
@@ -57,7 +57,7 @@ main {
   height: 250vh;
 }
 
-#grid-general {
+#grid-general{
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -370,4 +370,8 @@ footer {
   font-size: 2.4vh;
   color: white;
   font-family: verdana;
+}
+
+#witcher-audio{
+  display: none;
 }
