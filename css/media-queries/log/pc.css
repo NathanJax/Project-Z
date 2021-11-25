@@ -1,10 +1,11 @@
 @media screen and (min-width:601px){
     body{
         margin: 0;
-        background-image:url("../../../src/log/pc-back.png");
+        background-image: url("../../../src/log/PC.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     .form{
         background-color: white;
         display: block;

@@ -1,0 +1,7 @@
+@media screen and (max-width:600px){
+    body{
+        background-image: url("../../../src/log/phone.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
