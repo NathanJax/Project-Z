@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url("../src/index/header.png");
+  display: flex;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logoContainerWh40k {
+  display: flex;
+  color: white;
+  font-family: monospace;
+  font-size: 2vh;
+  align-items: center;
+}
+
+.logoWh40k {
+  width: 32px;
+  height: 32px;
+}
