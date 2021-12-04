@@ -33,6 +33,48 @@ main {
   grid-gap: 1vw;
   padding: 2vh;
 }
+
+.imperiumimperium_of_man {
+  background-image: url(../src/index/main/warhammer40k/imperium_of_man.png);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.necrons {
+  background-image: url(../src/index/main/warhammer40k/necrons.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+.orks {
+  background-image: url(../src/index/main/warhammer40k/orks.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.chaos {
+  background-image: url(../src/index/main/warhammer40k/chaos.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.tau {
+  background-image: url(../src/index/main/warhammer40k/tau.png);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.eldar {
+  background-image: url(../src/index/main/warhammer40k/eldar.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+
+.dark_eldar {
+  background-image: url(../src/index/main/warhammer40k/dark_eldar.jfif);
+  background-size: cover;
+  background-position-x: center;
+}
+
 footer {
   height: 8vh;
   display: flex;
