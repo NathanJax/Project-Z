@@ -10,7 +10,7 @@ header {
   background-size: cover;
 }
 
-.logoContainerWh40k {
+.logoContainer {
   display: flex;
   color: white;
   font-family: monospace;
@@ -18,7 +18,7 @@ header {
   align-items: center;
 }
 
-.logoWh40k {
+.logo {
   width: 32px;
   height: 32px;
 }
