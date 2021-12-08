@@ -23,87 +23,28 @@ header {
   height: 32px;
 }
 main {
-  height: 250vh;
+  height: 70vh;
 }
 
 #grid-general {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 1vw;
   padding: 2vh;
 }
 
-.imperiumimperium_of_man {
-  background-image: url(../src/index/main/warhammer40k/imperium_of_man.png);
-  background-size: cover;
-  background-position-x: center;
+#grid-general div {
+  background-color: red;
+  transition: 0.4s;
 }
 
-.necrons {
-  background-image: url(../src/index/main/warhammer40k/necrons.jfif);
-  background-size: cover;
-  background-position-x: center;
-}
-.orks {
-  background-image: url(../src/index/main/warhammer40k/orks.jfif);
-  background-size: cover;
-  background-position-x: center;
+#grid-general img {
+  transition: 0.4s;
 }
 
-.chaos {
-  background-image: url(../src/index/main/warhammer40k/chaos.jfif);
-  background-size: cover;
-  background-position-x: center;
-}
-
-.tau {
-  background-image: url(../src/index/main/warhammer40k/tau.png);
-  background-size: cover;
-  background-position-x: center;
-}
-
-.eldar {
-  background-image: url(../src/index/main/warhammer40k/eldar.jfif);
-  background-size: cover;
-  background-position-x: center;
-}
-
-.dark_eldar {
-  background-image: url(../src/index/main/warhammer40k/dark_eldar.jfif);
-  background-size: cover;
-  background-position-x: center;
-}
-
-footer {
-  height: 8vh;
-  display: flex;
-  justify-content: space-around;
-  background-image: url("../src/index/footer.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.email {
-  text-align: center;
-  font-size: 2.4vh;
-  color: white;
-  font-family: verdana;
-}
-
-.social-container {
-  display: flex;
-  align-items: center;
-}
-
-.social-container img {
-  width: 40px;
-  height: 40px;
-}
-
-.number {
-  text-align: center;
-  font-size: 2.4vh;
-  color: white;
-  font-family: verdana;
+#grid-general img:hover {
+  filter: brightness(0.25);
+  transition: 0.4s;
+  cursor: pointer;
 }
