@@ -1,42 +1,19 @@
 body {
   margin: 0;
-}
-
-header {
-  background-image: url("../src/index/header.png");
-  display: flex;
-  justify-content: space-between;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.logoContainer {
-  display: flex;
-  color: white;
-  font-family: monospace;
-  font-size: 2vh;
-  align-items: center;
-}
-
-.logo {
-  width: 32px;
-  height: 32px;
-}
-main {
-  height: 70vh;
+  overflow: hidden;
 }
 
 #grid-general {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 1vw;
-  padding: 2vh;
 }
 
 #grid-general div {
-  background-color: red;
   transition: 0.4s;
+  height: 364px;
+  width: 374px;
+  background-color: white;
 }
 
 #grid-general img {
@@ -44,7 +21,8 @@ main {
 }
 
 #grid-general img:hover {
-  filter: brightness(0.25);
+  filter: brightness(0.5);
   transition: 0.4s;
   cursor: pointer;
+  transform: scale(1.03);
 }
