@@ -1,0 +1,55 @@
+body{
+    margin:0;
+}
+
+main{
+  height: 250vh;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-columns: 1fr;
+  grid-gap: 2vh;
+  padding: 2vh;
+  z-index: 1;
+}
+
+.map-img{
+  display: block;
+}
+
+#grid-character{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vh;
+    padding: 1vh;
+}
+
+.character-image{
+  background-image: url(../../../src/fandom/witcher/character.png);
+  background-size: cover;
+}
+
+.window{
+  position: absolute;
+  display: none;
+  width: 400px;
+  height: 400px;
+  z-index: 9;
+  background-color: grey;
+}
+
+.window-mover{
+  height: 30px;
+  display: flex;
+  justify-content: end;
+  background-color: gold;
+}
+
+.window-mover:hover{
+  cursor: pointer;
+  
+}
+
+.window button:hover{
+  cursor: pointer;
+}
