@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
 }
@@ -14,7 +16,7 @@ header {
   display: flex;
   color: white;
   font-family: monospace;
-  font-size: 2vh;
+  font-size: 2.5vh;
   align-items: center;
 }
 
@@ -42,7 +44,7 @@ header {
   text-decoration: none;
   color: white;
   font-family: monospace;
-  font-size: 2vh;
+  font-size: 2.5vh;
   margin: 5px;
 }
 
@@ -57,6 +59,17 @@ main {
   height: 250vh;
 }
 
+main a{
+  color: black;
+  transition: .3s;
+  text-decoration: none;
+}
+
+main a:hover{
+  transition: .3s;
+  opacity: 40%;
+}
+
 #grid-general {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -67,9 +80,8 @@ main {
 
 #grid-witcher-images {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2vw;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
   padding: 2vh;
 }
 
@@ -169,9 +181,8 @@ main {
 
 #grid-league-of-legends-images {
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0.5vw;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
   padding: 2vh;
 }
 
@@ -220,9 +231,8 @@ main {
 
 #grid-warhammer40k-images {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2vw;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
   padding: 2vh;
 }
 
@@ -293,9 +303,8 @@ main {
 
 #grid-lotr-images {
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 0.5vw;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
   padding: 2vh;
 }
 
@@ -363,6 +372,15 @@ footer {
 .social-container img {
   width: 40px;
   height: 40px;
+}
+
+.github-img{
+  transition: .3s;
+}
+
+.github-img:hover{
+  transform: scale(1.1);
+  transition: .3s;
 }
 
 .number {
