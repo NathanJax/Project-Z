@@ -1,18 +1,23 @@
+html{
+  height: 100%;
+}
+
 body {
   margin: 0;
   overflow: hidden;
+  height: 100%;
 }
+
 
 #grid-general {
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto auto;
+  grid-gap:0px;
 }
 
 #grid-general div {
   transition: 0.4s;
-  height: 364px;
-  width: 374px;
   background-color: white;
 }
 
@@ -20,9 +25,57 @@ body {
   transition: 0.4s;
 }
 
-#grid-general img:hover {
+#grid-general div:hover {
   filter: brightness(0.5);
-  transition: 0.4s;
+  transition: 0.5s;
   cursor: pointer;
-  transform: scale(1.03);
+  transform: scale(1.02);
+}
+
+.orc-img{
+  background-image: url("../src/files_fandoms/wh40k/src/orc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imperium-img{
+  background-image: url("../src/files_fandoms/wh40k/src/imperium.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.necron-img{
+  background-image: url("../src/files_fandoms/wh40k/src/necron.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.chaos-img{
+  background-image: url("../src/files_fandoms/wh40k/src/chaos.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eldar-img{
+  background-image: url("../src/files_fandoms/wh40k/src/eldar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dark-eldar-img{
+  background-image: url("../src/files_fandoms/wh40k/src/dark eldar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tau-img{
+  background-image: url("../src/files_fandoms/wh40k/src/tau.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.back-img{
+  background-image: url("../src/files_fandoms/wh40k/src/back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
