@@ -1,18 +1,57 @@
-body{
-    margin:0;
+html{
+  height: 100%;
 }
 
-main{
-  height: 250vh;
+body{
+  margin:0;
+  height: 100%;
+}
+
+#grid-general{
   display: grid;
-  grid-template-rows: auto auto auto auto auto auto;
-  grid-template-columns: 1fr;
-  grid-gap: 2vh;
-  padding: 2vh;
-  z-index: 1;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+}
+
+#grid-general div{
+  transition: .5s;
+}
+
+#grid-general div:hover{
+  filter:brightness(0.6);
+  transition: .3s;
+  cursor: pointer;
+}
+
+.lore-img{
+  background-image: url("../../../src/fandom/witcher/lore.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .map-img{
+  background-image: url("../../../src/fandom/witcher/map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.characters-img{
+  background-image: url("../../../src/fandom/witcher/characters.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.back-img{
+  background-image: url("../../../src/fandom/witcher/back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* .map-img{
   display: block;
 }
 
@@ -27,29 +66,5 @@ main{
 .character-image{
   background-image: url(../../../src/fandom/witcher/character.png);
   background-size: cover;
-}
+} */
 
-.window{
-  position: absolute;
-  display: none;
-  width: 400px;
-  height: 400px;
-  z-index: 9;
-  background-color: grey;
-}
-
-.window-mover{
-  height: 30px;
-  display: flex;
-  justify-content: end;
-  background-color: gold;
-}
-
-.window-mover:hover{
-  cursor: pointer;
-  
-}
-
-.window button:hover{
-  cursor: pointer;
-}

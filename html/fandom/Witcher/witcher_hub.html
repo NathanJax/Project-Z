@@ -5,23 +5,13 @@
     <title>The Witcher Universe</title>
     <link rel="stylesheet" href="../../../css/fandom/Witcher/witcher_hub.css">
 </head>
-<body>
-        <button onclick="displayBlock()"></button>
-        <div class="window" id="window-id">
-            <div class="window-mover" id="window-mover-id">
-                <button onclick="removeBlock()">
-
-                </button>
-            </div>
-
-        </div> 
-        <main id="grid-general">
-        <div class="map-img">
+<body id="grid-general">
+    <!-- <div class="map-img">
             <p><h1>1. Карта Неверленда</h1></p>
             <p>Весь Неверленд (Ведьмачья версия), разделенный на государства</p>
             <img src="../../../src/fandom/witcher/neverland.png" alt="neverland">
-        </div>
-        <div id="grid-character">
+    </div>
+    <div id="grid-character">
             <div>
                 <p><h1>2. Основные персонажи</h1></p>
                 <p>Главными персонажи (в разных медиа-материалах) являются всемирно извесный (благодаря игре 2015 года) Геральт из Ривии, его приемная дочь Цирилла (для своих: Цири) и колдунья Йеннифер из Венгеберга (и верная лошадь по кличке Плотва).</p>
@@ -29,55 +19,19 @@
                 <p><a href="">Больше информации о них и о других персонажах находится здесь</a></p>
             </div>
             <div class="character-image"></div>
-        </div>
-        <div>1</div>
-        <div>1</div>
-        <div>1</div>
-        <div>
+    </div> -->
+    <div class="lore-img"></div>
+    <div class="map-img"></div>
+    <div class="characters-img"></div>
+    <div class="back-img"></div>
+    <!-- <div>
             <p><h1>6. Медиа-материалы</h1></p>
             <p><h3>6.1. Литература</h3></p>
             <p>Впервые история о ведьмаке Геральте была опубликована в декабрьском номере 1986 года ежемесячного журнала "Fantastyka" для конкурса (заработав третье место). В 1993 выходит первый сборник рассказов под названием "Последнее желание". В нынешнее время, "Сага о Ведьмаке" (так называется серия) имеет два сборника рассказов и шесть написанных романов (в 2018 году пан Сапковский объявил, что работает над новой книгой серии).</p>
             <p><h3>6.2. Графические адаптации</h3></p>
             <p>Первая адаптация была создана Мацеем Паровским в соавторстве с паном Сапковским и проил</p>
-        </div>
-        
-    </main>
-    
+    </div> -->
 </body>
 
-<script>
-    function displayBlock(){
-        document.getElementById("window-id").style.display="block";
-    }
-    function removeBlock(){
-        document.getElementById("window-id").style.display="none";
-    }
 
-    var windows = document.getElementById("window-id");
-    var window_mover = document.getElementById("window-mover-id");
-
-    window_mover.onmousedown = function(event) {
-
-    document.body.append(windows);
-
-    function moveAt(pageX, pageY) {
-        windows.style.left = pageX - windows.offsetWidth / 2 + 'px';
-        windows.style.top = pageY - windows.offsetHeight / 2 + 'px';
-    }
-
-    moveAt(event.pageX, event.pageY);
-
-    function onMouseMove(event) {
-        moveAt(event.pageX, event.pageY);
-    }
-
-    document.addEventListener('mousemove', onMouseMove);
-
-    windows.onmouseup = function() {
-        document.removeEventListener('mousemove', onMouseMove);
-        window_mover.onmouseup = null;
-    };
-
-    };
-</script>
 </html>
