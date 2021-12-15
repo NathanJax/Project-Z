@@ -1,0 +1,25 @@
+html{
+  height: 100%;
+}
+  
+body{
+    margin:0;
+    height: 100%;
+}
+  
+#grid-general{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+  
+#grid-general div{
+    transition: .5s;
+}
+  
+#grid-general div:hover{
+    filter:brightness(0.6);
+    transition: .3s;
+    cursor: pointer;
+}
+

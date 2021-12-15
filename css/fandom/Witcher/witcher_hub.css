@@ -53,18 +53,5 @@ body{
 
 /* .map-img{
   display: block;
-}
-
-#grid-character{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1vh;
-    padding: 1vh;
-}
-
-.character-image{
-  background-image: url(../../../src/fandom/witcher/character.png);
-  background-size: cover;
-} */
+}*/
 
