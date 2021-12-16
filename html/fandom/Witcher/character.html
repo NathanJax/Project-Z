@@ -5,20 +5,111 @@
     <title>Characters</title>
     <link rel="stylesheet" href="../../../css/fandom/witcher/character.css">
 </head>
-<body id="grid-general">
-    <div class="geralt"></div>
-    <div class="ciri"></div>
-    <div class="yennefer"></div>
-    <div class="triss"></div>
-    <div class="jaskier"></div>
-    <div class="vesemir"></div>
-    <div class="eskel"></div>
-    <div class="lambert"></div>
-    <div class="vampire"></div>
-    <div class="zoltan"></div>
-    <div class="vilgefortz"></div>
-    <div class="back"></div>
+<body>
+    <div class="geralt-info" id="geralt-info">
+        <div class="geralt-info-bar" id="geralt-info-bar">
+            <img src="../../../src/fandom/witcher/characters/info/cancel.png" alt="" onclick="closeGeralt()">
+        </div>
+        <div class="geralt-info-main" id="geralt-info-main">
+            1
+        </div>
+    </div>
+    <div class="ciri-info" id="ciri-info">
+        <div class="ciri-info-bar" id="ciri-info-bar">
+            <img src="../../../src/fandom/witcher/characters/info/cancel.png" alt="" onclick="closeCiri()">
+        </div>
+        <div class="ciri-info-main" id="ciri-info-main">
+            2
+        </div>
+    </div>
+    <div class="yennefer-info" id="yennefer-info">
+        <div class="yennefer-info-bar" id="yennefer-info-bar">
+            <img src="../../../src/fandom/witcher/characters/info/cancel.png" alt="" onclick="closeYennefer()">
+        </div>
+        <div class="yennefer-info-main" id="yennefer-info-main">
+            3
+        </div>
+    </div>
+    <div class="triss-info" id="triss-info">
+        <div class="triss-info-bar" id="triss-info-bar">
+            <img src="../../../src/fandom/witcher/characters/info/cancel.png" alt="" onclick="closeTriss()">
+        </div>
+        <div class="triss-info-main" id="triss-info-main">
+            4
+        </div>
+    </div>
+    <div class="jaskier-info" id="jaskier-info">
+        <div class="jaskier-info-bar" id="jaskier-info-bar">
+            <img src="../../../src/fandom/witcher/characters/info/cancel.png" alt="" onclick="closeJaskier()">
+        </div>
+        <div class="jaskier-info-main" id="jaskier-info-main">
+            5
+        </div>
+    </div>
+    <div class="vesemir-info" id="vesemir-info">
+        <div class="vesemir-info-bar" id="vesemir-info-bar">
+            <img src="../../../src/fandom/witcher/characters/info/cancel.png" alt="" onclick="closeVesemir()">
+        </div>
+        <div class="vesemir-info-main" id="vesemir-info-main">
+            6
+        </div>
+    </div>
+    <div class="eskel-info" id="eskel-info">
+        <div class="eskel-info-bar" id="eskel-info-bar">
+            <img src="../../../src/fandom/witcher/characters/info/cancel.png" alt="" onclick="closeEskel()">
+        </div>
+        <div class="eskel-info-main" id="eskel-info-main">
+            7
+        </div>
+    </div>
+    <div class="lambert-info" id="lambert-info">
+        <div class="lambert-info-bar" id="lambert-info-bar">
+            <img src="../../../src/fandom/witcher/characters/info/cancel.png" alt="" onclick="closeLambert()">
+        </div>
+        <div class="lambert-info-main" id="lambert-info-main">
+            8
+        </div>
+    </div>
+    <div class="vampire-info" id="vampire-info">
+        <div class="vampire-info-bar" id="vampire-info-bar">
+            <img src="../../../src/fandom/witcher/characters/info/cancel.png" alt="" onclick="closeVampire()">
+        </div>
+        <div class="vampire-info-main" id="vampire-info-main">
+            9
+        </div>
+    </div>
+    <div class="zoltan-info" id="zoltan-info">
+        <div class="zoltan-info-bar" id="zoltan-info-bar">
+            <img src="../../../src/fandom/witcher/characters/info/cancel.png" alt="" onclick="closeZoltan()">
+        </div>
+        <div class="zoltan-info-main" id="zoltan-info-main">
+            10
+        </div>
+    </div>
+    <div class="vilgefortz-info" id="vilgefortz-info">
+        <div class="vilgefortz-info-bar" id="vilgefortz-info-bar">
+            <img src="../../../src/fandom/witcher/characters/info/cancel.png" alt="" onclick="closeVilgefortz()">
+        </div>
+        <div class="vilgefortz-info-main" id="vilgefortz-info-main">
+            11
+        </div>
+    </div>
+    <main id="grid-general">
+        <div class="geralt-img" onclick="displayGeralt()"></div>
+        <div class="ciri-img" onclick="displayCiri()"></div>
+        <div class="yennefer-img" onclick="displayYennefer()"></div>
+        <div class="triss-img" onclick="displayTriss()"></div>
+        <div class="jaskier-img" onclick="displayJaskier()"></div>
+        <div class="vesemir-img" onclick="displayVesemir()"></div>
+        <div class="eskel-img" onclick="displayEskel()"></div>
+        <div class="lambert-img" onclick="displayLambert()"></div>
+        <div class="vampire-img" onclick="displayVampire()"></div>
+        <div class="zoltan-img" onclick="displayZoltan()"></div>
+        <div class="vilgefortz-img" onclick="displayVilgefortz()"></div>
+        <div class="back-img" onclick="goHub()"></div>
+    </main>
 </body>
 
 <script src="../../../js/index/fandom/witcher/character/display_info.js"></script>
+<script src="../../../js/index/fandom/witcher/character/references.js"></script>
 </html>

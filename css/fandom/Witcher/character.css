@@ -1,9 +1,14 @@
 html{
-  height: 100%;
+    height: 100%;
 }
   
 body{
     margin:0;
+    height: 100%;
+    font-size: 30vh;
+}
+
+main{
     height: 100%;
 }
   
@@ -21,5 +26,268 @@ body{
     filter:brightness(0.6);
     transition: .3s;
     cursor: pointer;
+}
+
+.geralt-info{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.ciri-info{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.yennefer-info{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.triss-info{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.jaskier-info{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.vesemir-info{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.eskel-info{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.lambert-info{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.vampire-info{
+    display: none;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 200px;
+    z-index: 2;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+}
+
+.zoltan-info{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.vilgefortz-info{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.geralt-info-bar{
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+}
+
+.ciri-info-bar{
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+}
+
+.yennefer-info-bar{
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+}
+
+.triss-info-bar{
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+}
+
+.jaskier-info-bar{
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+}
+
+.vesemir-info-bar{
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+}
+
+.eskel-info-bar{
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+}
+
+.lambert-info-bar{
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+}
+
+.vampire-info-bar{
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+}
+
+.zoltan-info-bar{
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+}
+
+.vilgefortz-info-bar{
+    display: flex;
+    justify-content: end;
+    padding: 5px;
+}
+
+.geralt-img{
+    background-image: url("../../../src/fandom/witcher/characters/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.ciri-img{
+    background-image: url("../../../src/fandom/witcher/characters/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.yennefer-img{
+    background-image: url("../../../src/fandom/witcher/characters/3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.triss-img{
+    background-image: url("../../../src/fandom/witcher/characters/4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.jaskier-img{
+    background-image: url("../../../src/fandom/witcher/characters/5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.vesemir-img{
+    background-image: url("../../../src/fandom/witcher/characters/6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.eskel-img{
+    background-image: url("../../../src/fandom/witcher/characters/7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.lambert-img{
+    background-image: url("../../../src/fandom/witcher/characters/8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.vampire-img{
+    background-image: url("../../../src/fandom/witcher/characters/9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.zoltan-img{
+    background-image: url("../../../src/fandom/witcher/characters/10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.vilgefortz-img{
+    background-image: url("../../../src/fandom/witcher/characters/11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.back-img{
+    background-image: url("../../../src/fandom/witcher/characters/12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
 }
 
